@@ -78,11 +78,12 @@ export default function WithSubnavigation() {
                         fontWeight={600}
                         color={'white'}
                         bg={'green.400'}
-                        href={'#'}
                         _hover={{
                             bg: 'green.400',
                         }}>
-                        Sign Up
+                        <Link href="/signup">
+                            <a>Sign Up</a>
+                        </Link>
                     </Button>
                 </Stack>
             </Flex>
