@@ -34,9 +34,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-# json
-.json
-
 # Logs
 logs
 *.log
