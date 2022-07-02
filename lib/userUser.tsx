@@ -22,7 +22,7 @@ const useUser = () => {
             removeUserCookie();
             router.push("/auth");
         } catch (e) {
-            console.log(e.message);
+            console.log(e);
         }
     }
 
